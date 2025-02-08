@@ -1,9 +1,12 @@
-a[href^="https"] {
-    color: red;
-  }
-  
-  
-  ul + p {
-    font-size: 24px;
-  }
-  
+:root {
+    --primary-color: #000; /* Змініть на основний колір макета */
+    --secondary-color: #757575;
+    --accent-color: #2196F3;
+    --background-color: #F5F5F5;
+    --text-color: #212121;
+}
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
