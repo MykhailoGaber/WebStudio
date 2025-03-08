@@ -1,12 +1,204 @@
 :root {
-    --primary-color: #000; /* Змініть на основний колір макета */
-    --secondary-color: #757575;
-    --accent-color: #2196F3;
-    --background-color: #F5F5F5;
-    --text-color: #212121;
-}
-body {
-    color: var(--text-color);
-    background-color: var(--background-color);
+  --primary-color: #2196F3;
+  --secondary-color: #757575;
+  --dark-color: #212121;
+  --light-color: #FFFFFF;
+  --bg-color: #F5F4FA;
+  --blue-color: #007BFF;
+  --black-color: #000;
+  --background-dark: #2C2C3A;
+  --white-color: #FFFFFF;
 }
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-dark);
+  color: var(--white-color);
+
+}
+a:hover {
+  color: blue;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-dark);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo .blue {
+  color: var(--blue-color);
+}
+
+.logo .black {
+  color: var(--black-color);
+}
+.section-center {
+  text-align: center;
+}
+
+.section-center ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+.section-center ul li {
+  margin: 10px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Задайте відповідний розмір */
+  background-color: var(--background-dark);
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
+.hero-section h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-section a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.hero-section a:hover {
+  background-color: #0056b3; 
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--dark-color);
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: var(--light-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  
+}
+
+nav ul li a {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
+
+section {
+  padding: 0;
+  margin: 0;
+}
+
+.full-width-box {
+  background-color: #2C2E3A; /* Темно-сірий/чорний фон */
+  width: 100vw; /* Робить блок на всю ширину екрану */
+  padding: 80px 0; /* Внутрішній відступ */
+  text-align: center;
+}
+
+h1 {
+  color: white; /* Білий текст */
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007BFF; /* Синій фон кнопки */
+  color: #FFFFFF; /* Білий текст */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+ h2, h3 {
+  color: var(--dark-color);
+  text-align: center;
+}
+
+p {
+  color: var(--secondary-color);
+}
+
+
+section ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+section ul li {
+  text-align: center;
+  background-color: var(--light-color);
+  
+  
+}
+
+
+footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 20px;
+}
+
+footer a {
+  color: var(--light-color);
+  text-decoration: none;
+}
