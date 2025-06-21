@@ -184,6 +184,22 @@ header{
    text-align: center;
    margin-bottom: 50px;
 }
+.work-text{
+   position: relative;
+   bottom: 73px;
+
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: 14px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   text-align: center;
+   color: #fff;
+   background-color: rgba(47, 48, 58, 0.8);
+   
+   padding-top: 29px;
+   height: 70px;
+}
 .team{
  background-color: #F5F4FA;
  padding-top: 94px;
@@ -333,7 +349,7 @@ header{
    height: 44px;
    margin-right: 10px;
 }
-.footer-circle-twitter{
+.footer-circle:hover{
     border-radius: 50%;
     margin-right: 10px;
     background-color: #2196F3;
